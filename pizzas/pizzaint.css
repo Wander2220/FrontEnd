@@ -1,22 +1,9 @@
-p{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-}
+
 h1{
     color: rgb(255, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
-    left: 25%;
     text-align: center;
-}
-h2{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-}
-h3{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
-    border-radius: 15%;
 }
 header{
     background-color:rgb(253, 0, 63);
@@ -29,10 +16,10 @@ header{
     box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
 }
 footer{
-    background-color: rgb(173, 163, 163);
+    background-color:lightslategray;
     padding: 10%;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 12px;
     color: aliceblue;
     text-align: left;
 }
@@ -40,63 +27,68 @@ footer{
     top: 0;
     height: 91px;
     width: 90px;
-    transition: 1s;
     cursor: pointer;
+}
+#foto:hover{
+    height: 95px;
+    width: 95px;
 }
 #titulo{
     position: fixed;
-    padding: 1%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
-    top: 1%;
+    top: 4%;
     left: 8%;
-    border: 5px solid yellow;
-    transition: 1s;
+    border: 2px solid yellow;
     cursor: pointer;
-    border-radius: 75%;
+    border-radius: 10%;
 }
 #titulo:hover{
-background-color: rgb(20, 187, 187);
-transition: 1s;
-}
-#rodape{
-    font-size: 15px;
-    text-align: left;
-}
-#roda{
-    font-size: 15px;
-    text-align: left;
+background-color: rgb(165, 15, 15);
+transition: 100ms;
 }
 body{
     height: 100%;
     margin: 0; 
 }
-#img1{
-    margin-left: 250px;
-    height: 400px;
-    left: 200px;
-}
-#img3{
-    margin-left: 250px;
-    width: 56%;
-    left: 200px;
-}
-#img2{
-    margin-left: 0;
-    width: 14%;
-    left: 200px;
-}
-#img4{
-    position: absolute;
-    margin-left: 250px;
-    width: 14%;
-    height: 29%;
-    left: 546px;
-}
-#textao{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-}
 a:hover{
-    color: red;
+    color: rgb(255, 255, 255);
+}
+* {
+    font-family:Verdana, Geneva, sans-serif;
+}
+ul {
+    position: fixed;
+    left: 330px;
+    top: 22px;
+    }
+    
+    li {
+    color: aliceblue;
+    list-style: none; 
+    margin: 10px;
+    display: inline;
+    }
+    li:hover{
+        top: 0;
+        background-position: 100%;
+        background-color: brown;
+    }
+li a {
+    padding: 5px 10px; 
+    margin:0;
+    border: 5px, rgb(165, 15, 15); 
+    text-decoration: none;
+    color: aliceblue;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+}
+li a:hover {
+    background: rgb(165, 15, 15);
+    transition: 100ms;
+}
+#img1{
+    object-position: 100%;
+    margin-left: 190px;
 }
