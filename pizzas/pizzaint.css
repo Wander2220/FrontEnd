@@ -108,3 +108,13 @@ button:hover{
     top: 115px;
     position: absolute;
 }
+#logos{
+    margin-top: -50px;
+    position: absolute;
+    font-size: 20px;
+}
+#logos a{
+    text-decoration: none;
+    color: aliceblue;
+    cursor: pointer;
+}
