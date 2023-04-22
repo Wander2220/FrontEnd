@@ -9,7 +9,7 @@ h1{
 }
 header{
     background-color:rgb(163, 22, 57);
-    position: sticky;
+    position: absolute;
     color: aliceblue;
     left: 0;
     top: 0;
@@ -20,33 +20,34 @@ header{
 footer{
     background-color:lightslategray;
     padding: 10%;
-    font-size: 12px;
+    font-size: 0.6em;
     color: aliceblue;
     text-align: left;
 }
 #foto{
     top: 0;
-    height: 91px;
+    height: 90px;
     width: 90px;
     cursor: pointer;
 }
 #foto:hover{
     transition: .5s;
-    height: 93px;
-    width: 93px;
+    height: 91px;
+    width: 91px;
 }
 #titulo{
     padding: 5px;
-    position: fixed;
-    font-size: 30px;
-    top: 3%;
-    left: 8%;
+    margin: 5px;
+    position: absolute;
+    font-size: 2em;
+    top: 10px;
+    left: 3em;
     border: 3px solid yellow;
     cursor: pointer;
     border-radius: 20px;
 }
 #titulo:hover{
-background-color: rgb(165, 15, 15);
+background-color: rgb(99, 10, 10);
 transition: .5s;
 }
 body{
@@ -57,26 +58,25 @@ a:hover{
     color: rgb(255, 255, 255);
 }
 #topo{
-    position: fixed;
+    position: absolute;
     left: 330px;
     top: 22px;
-    }
-    li {
+}
+li{
+    margin: auto;
+    font-size: 1em;
     color: aliceblue;
-    margin: 2px;
     display: inline;
-    }
+}
 li a{
     top: 3%;
     padding: 5px 10px; 
-    border: 5px, rgb(165, 15, 15); 
     text-decoration: none;
     color: aliceblue;
-    border-radius:5px;
-    
 }
 li a:hover {
-    background: rgb(165, 15, 15);
+    
+    background: rgb(99, 10, 10);
     transition: .5s;
 }
 button{
@@ -84,24 +84,27 @@ button{
     font-size: large;
     color: aliceblue;
     background-color: rgb(163, 22, 57);
+    position: absolute;
     top: 0;
-    position: fixed;
+    width: 5em;
     right: 0;
-    width: 90px;
-    height: 90px;
+    height: 5em;
 }
 button:hover{
-    background-color: rgb(165, 15, 15);
-    height: 92px;
-    width: 92px;
+    background-color: rgb(99, 10, 10);
+    right: 0;
+    height: 5em;
     transition: .5s;
     cursor: pointer;
 }
 #menu{
-    margin: 30px;
-    overflow-x: scroll;
+    margin: 5%;
+    margin-left: 10%;
 }
-#img5{
-    margin-left: auto;
-    margin-right: auto;
+#img1{
+    width: 215px;
+    height: 259px;
+    left: 860px;
+    top: 115px;
+    position: absolute;
 }
