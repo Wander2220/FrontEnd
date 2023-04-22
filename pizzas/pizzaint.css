@@ -104,8 +104,8 @@ button:hover{
 #img1{
     width: 215px;
     height: 259px;
-    left: 860px;
-    top: 115px;
+    left: 54.5em;
+    top: 120px;
     position: absolute;
 }
 #logos{
@@ -117,4 +117,7 @@ button:hover{
     text-decoration: none;
     color: aliceblue;
     cursor: pointer;
+}
+#logos a:hover{
+    color: rgb(202, 195, 195);
 }
