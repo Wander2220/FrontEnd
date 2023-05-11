@@ -3,12 +3,7 @@
     box-sizing: border-box;
     font-size: 15px;
 }
-h1{
-    padding: 0 50px;
-    color: rgb(0, 0, 0);
-    font-size: 20px;
-    text-align: center;
-}
+
 header{
     padding: 0 15%;
     background: linear-gradient(to left, rgb(255, 255, 255), rgb(174, 243, 220));
@@ -21,13 +16,12 @@ header{
     box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
 }
 footer{
-    margin-top: 5%;
+    margin-top: 0;
     background-color:rgb(45, 102, 158);
     font-size: larger;
     color: aliceblue;
     text-align: left;
     padding: 5%;
-    
 }
 #foto{
     padding: 10px 0;
@@ -47,16 +41,6 @@ body{
     background: linear-gradient( rgb(255, 255, 255), rgb(178, 241, 149));
     height: 100%;
     margin: 0; 
-}
-button{
-    border: none;
-    font-size: medium;
-    color: aliceblue;
-    background: none;
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    margin: 0 auto;
 }
 /* #menu{
     margin: 5%;
@@ -78,12 +62,15 @@ button{
 #logos a:hover{
     color: rgb(202, 195, 195);
 }
-
-#menu{
+footer > #textao{
+    padding: 0;
+    bottom: 0;
+    text-align: center;
+}
+#menu {
     display: inline-block;
-    justify-content: start;
-    align-items: center;
-    margin: 0 auto;
+    text-align: left;
+    margin: 3% auto;
 }
 .image {
     border-radius: 10px;
@@ -93,14 +80,11 @@ button{
     height: 250px;
     border-radius: 10px;
 }
-footer > #textao{
-    padding: 0;
-    bottom: 0;
-    text-align: center;
-}
 #menu div{
+    text-align: left;
     float:right;
     margin: 0 10px;
+    vertical-align: top;
 }
 #menu nav{
     font-size: 10px;
@@ -111,9 +95,14 @@ footer > #textao{
     border-radius: 15px;
     padding: 10px;
     cursor: pointer;
-    margin: 0 1%;
+    margin: 0 1px;
+    border: none;
+    top: 0;
 }
 button a{
     text-decoration: none;
     color: aliceblue;
+}
+#info{
+    font-size: 13px;
 }
